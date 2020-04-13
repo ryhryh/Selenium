@@ -73,7 +73,7 @@ class Crawler591():
         
         if len(untrack_urls)>=0: 
             self.send_email(untrack_urls)
-#             self.df_all.to_csv('house.csv', index=False)
+            self.df_all.to_csv('house.csv', index=False)
         self.driver.quit()
     
         print('finish!!!')
